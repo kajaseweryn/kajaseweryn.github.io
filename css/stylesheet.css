@@ -1,0 +1,274 @@
+.header {
+  border: 0px black solid;
+  width: 220px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.header h1 {
+  text-align: center;
+  font-family:'Futura';
+}
+
+p {
+  font-family: 'Futura';
+}
+
+hr {
+  width: 500px;
+}
+
+
+.fotos img {
+  width: 200px;
+  margin: 20px;
+}
+
+.fotos img:hover {
+  -o-transition: all 0.6s;
+-moz-transition: all 0.6s;
+-webkit-transition: all 0.6s;
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
+
+.fotos {
+  border: 0px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 740px;
+}
+
+.tekst {
+  font-size: 12px;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.square {
+  border: 0px black solid;
+  display: inline-block;
+}
+
+.content {
+  border: 0px black solid;
+}
+
+.logo p {
+  font-family: 'Futura';
+  text-align: center;
+
+}
+
+.backbutton img {
+  width: 14px;
+}
+
+.backbutton {
+  border: 0px black solid;
+  width: 22px;
+}
+
+.top {
+  display: inline-block;
+  border: 0px black solid;
+}
+
+.titleandback {
+  border: 0px black solid;
+  width: 248px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.info img {
+  width: 150px;
+}
+
+.info p {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.cv {
+  width: 330px;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: top;
+  border: 0px black solid;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.info {
+  border: 0px black solid;
+  width: 510px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.social img {
+  width: 35;
+}
+
+.mail {
+  margin-left: 2px;
+}
+
+.insta {
+  margin-left: 2px;
+  margin-right: 4px;
+}
+
+.socialin {
+  border: 0px black solid;
+  width: 117px;
+  float: right;
+}
+
+.social {
+  border: 0px black solid;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social1 {
+  display: inline-block;
+}
+
+.column {
+  border: 0px black solid;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.up img {
+  width: 17px;
+}
+
+.up {
+  width: 17px;
+  margin: 40px auto 90px auto;
+}
+
+.gallery-cell {
+  width: 33%;
+  height: 480px;
+  margin-right: 10px;
+}
+
+.gallery-cell.size-340 {
+  width: 660px;
+}
+
+.gallery-cell.size-large {
+  width: 660px;
+}
+
+.linie {
+  border: 0px black solid;
+  width: 12px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information {
+  border: 0px black solid;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.linia img {
+  width: 12px;
+}
+
+.linia {
+  margin-left: 18px;
+}
+
+.infocontent {
+  border: 0px black solid;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-left: 7px
+}
+
+.inf2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.berlin {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.berlinkrakau p {
+  text-align: right;
+}
+
+.infopart1 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.schools p {
+  font-size: 13px;
+}
+
+.schools {
+  margin-top: 35px;
+}
+
+.school2 {
+  margin-top: 100px;
+}
+
+.workexperience {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.worknames {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menuart img {
+  width: 200px;
+}
+
+.menuart a:hover {
+  opacity: 0.8;
+}
+
+.menuart {
+  border: 1px black solid;
+  width: 405px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuart1 {
+  display: inline-block;
+}
