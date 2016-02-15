@@ -256,6 +256,7 @@ hr {
 
 .menuart img {
   width: 200px;
+  margin: 10px;
 }
 
 .menuart a:hover {
@@ -263,12 +264,32 @@ hr {
 }
 
 .menuart {
-  border: 1px black solid;
-  width: 405px;
+  border: 0px black solid;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .menuart1 {
   display: inline-block;
+}
+
+.inkgallery {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px black solid;
+}
+
+.inkgallery img {
+  width:500px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.inkcolumn {
+  width: 500px;
+  border: 0px black solid;
+  display: inline-block;
+  margin: 40px;
 }
