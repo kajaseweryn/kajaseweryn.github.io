@@ -266,6 +266,7 @@ hr {
 .menuart {
   border: 0px black solid;
   width: 450px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -275,21 +276,22 @@ hr {
 }
 
 .inkgallery {
-  width: 1170px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
-  border: 0px black solid;
+  border: 1px black solid;
 }
 
 .inkgallery img {
-  width:500px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  width:400px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .inkcolumn {
-  width: 500px;
+  width: 400px;
   border: 0px black solid;
   display: inline-block;
-  margin: 40px;
+  vertical-align: top;
+  margin: 20px;
 }
