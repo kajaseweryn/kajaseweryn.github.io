@@ -10,11 +10,11 @@
   text-align: center;
   font-family: futura-pt, sans-serif;
   font-style: normal
-  font-weight: 400;
 }
 
 p {
-  font-family: 'Futura';
+  font-family: futura-pt, sans-serif;
+  font-style: normal
 }
 
 hr {
