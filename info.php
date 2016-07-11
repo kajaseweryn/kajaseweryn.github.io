@@ -8,22 +8,7 @@
   </head>
 
   <body>
-
-    <div class="titleandback">
-      <div class="top">
-        <div class="backbutton">
-          <a href="index.html"><img src="../images/all/backbutton.JPG" alt="back"></a>
-        </div>
-      </div>
-
-      <div class="top">
-        <div class="header">
-          <h1>kaja seweryn</h1>
-        </div>
-      </div>
-    </div>
-
-    <hr/>
+    <?php include 'header_index.php';?>
 
 <!--Info part-->
   <div class="info">

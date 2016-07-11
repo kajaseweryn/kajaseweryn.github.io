@@ -11,27 +11,8 @@
   </head>
 
   <body>
+    <?php include 'header_index.php';?>
 
-    <div class="titleandback">
-      <div class="top">
-        <div class="backbutton">
-          <a href="index.html"><img src="../images/all/backbutton.JPG" alt="back"></a>
-        </div>
-      </div>
-
-      <div class="top">
-        <div class="header">
-          <h1>kaja seweryn</h1>
-        </div>
-      </div>
-    </div>
-
-    <hr/>
-
-    <!--photos section-->
-
-
-        <!--slideshow-->
   <div class="gallery js-flickity">
     <div class="gallery-cell size-340">
       <img src="../images/ph/ph1.JPG"/>

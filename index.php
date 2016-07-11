@@ -21,15 +21,15 @@
       <div class="fotos">
 
         <div class="square">
-          <a href="art.html"><img src="../images/all/art.JPG" alt="art"></a>
+          <a href="art.php"><img src="../images/all/art.JPG" alt="art"></a>
         </div>
 
         <div class="square">
-          <a href="photos.html"><img src="../images/all/photos.JPG" alt="photos"></a>
+          <a href="photos.php"><img src="../images/all/photos.JPG" alt="photos"></a>
         </div>
 
         <div class="square">
-          <a href="info.html"><img src="../images/all/info.JPG" alt="info"></a>
+          <a href="info.php"><img src="../images/all/info.JPG" alt="info"></a>
         </div>
 
       </div>

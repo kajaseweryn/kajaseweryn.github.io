@@ -7,24 +7,7 @@
   </head>
 
   <body>
-
-<!--backbutton-->
-
-    <div class="titleandback">
-      <div class="top">
-        <div class="backbutton">
-          <a href="art.html"><img src="../images/all/backbutton.JPG" alt="back"></a>
-        </div>
-      </div>
-
-      <div class="top">
-        <div class="header">
-          <h1>kaja seweryn</h1>
-        </div>
-      </div>
-    </div>
-
-    <hr/>
+    <?php include 'header_art.php';?>
 
     <!--art menu section-->
 
@@ -50,11 +33,6 @@
 
 
 
-    <!--up button-->
-    <div class="up">
-      <a href="dig.html"><img src="upbutton.JPG" alt="go up"></a>
-    </div>
-
-
+    <?php include 'footer.php';?>
   </body>
 </html>
