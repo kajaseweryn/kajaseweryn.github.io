@@ -12,22 +12,35 @@
 
     <!--art menu section-->
     <div class="inkgallery">
-      <div class="inkcolumn">
-        <img src="../images/ink/ink2.JPG">
-        <img src="../images/ink/ink3.JPG">
-        <img src="../images/ink/ink4.JPG">
-        <img src="../images/ink/ink1.JPG">
-        <img src="../images/ink/ink5.JPG">
-      </div>
-      <div class="inkcolumn">
-        <img src="../images/ink/ink6.JPG">
-        <img src="../images/ink/ink7.JPG">
-        <img src="../images/ink/ink8.JPG">
-        <img src="../images/ink/ink9.JPG">
-      </div>
 
-    </div>
+    <?php
+      $count = 0;
+      $dir = 'images/ink/';
 
+      if ($handle = opendir($dir)) {
+        while (($file = readdir($handle)) !== false){
+            if (!in_array($file, array('.', '..')) && !is_dir($dir.$file))
+              $count++;
+            }
+          }
+
+          echo '<div class="inkcolumn">';
+          for ($i = 0; $i < ($count / 2) ; $i++) {
+            $dig = 'ink'.(string)$i.'.jpg';
+            echo '<img src="../images/ink/'.$dig.'"\>';
+          }
+          echo '</div>';
+
+          echo '<div class="inkcolumn">';
+          for (; $i < $count ; $i++) {
+            $dig = 'ink'.(string)$i.'.jpg';
+            echo '<img src="../images/ink/'.$dig.'"\>';
+          }
+
+          echo '</div>';
+    ?>
+
+  </div>
     <?php include 'footer.php';?>
   </body>
 </html>

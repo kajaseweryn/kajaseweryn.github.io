@@ -12,18 +12,24 @@
 
     <!--art menu section-->
     <div class="oilgallery">
-      <img src="../images/dig/dig1.jpg">
-      <img src="../images/dig/dig2.jpg">
-      <img src="../images/dig/dig7.jpg">
-      <img src="../images/dig/dig8.jpg">
-      <img src="../images/dig/dig4.jpg">
-      <img src="../images/dig/dig5.jpg">
-      <img src="../images/dig/dig3.jpg">
-      <img src="../images/dig/dig6.jpg">
-      <img src="../images/dig/dig9.jpg">
+      <?php
+        $count = 0;
+        $dir = 'images/dig/';
+         if ($handle = opendir($dir)) {
+             while (($file = readdir($handle)) !== false){
+                 if (!in_array($file, array('.', '..')) && !is_dir($dir.$file))
+                     $count++;
+             }
+         }
+
+      for ($i = 0; $i < $count; $i++) {
+        $dig = 'dig'.(string)$i.'.jpg';
+        echo '<img src="../images/dig/'.$dig.'"\>';
+      }
+      ?>
+
     </div>
 
     <?php include 'footer.php';?>
   </body>
 </html>
-.php
