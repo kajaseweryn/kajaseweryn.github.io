@@ -12,14 +12,16 @@
             </div>
 
             <div class="row">
-                <div class="menu_btn">
+                <div class="column">
                     <img src="images/menu/digital.jpg"/>
                 </div>
-                <div class="menu_btn">
+                <div class="column">
                     <img src="images/menu/traditional.jpg"/>
                 </div>
-                <div class="menu_btn">
+                <div class="column">
+                  <a href="../info.php">
                     <img src="images/menu/info.jpg"/>
+                  </a>
                 </div>
             </div>
             <hr/>

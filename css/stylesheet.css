@@ -9,7 +9,23 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    position: absolute;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.contentCenteredHorizontally {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;;
+  width: 60%;
+  height: 100%;
 }
 
 .content_centered{
@@ -26,7 +42,19 @@ body{
 .header {
   font-size: 48px;
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.headerNotCentered {
+  font-size: 48px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 2%;
 }
 
 .footer_note{
@@ -35,24 +63,68 @@ body{
   margin-right: 25%;
 }
 
+.footer_info_note{
+  margin-left: 5%;
+}
+
+.contentCenteredHorizontally hr{
+  width: 95%;
+  position: relative;
+}
+
 hr {
+  position: relative;
   width: 40%;
 }
 
 .row{
+  margin-bottom: 32px;
   position: relative;
   text-align:center;
   width: 100%;
+  max-height:100%;
 }
 
-.menu_btn{
+.column {
+  display:inline-block;
   max-width: 12.5%;
   height: auto;
   margin: 16px;
-  display:inline-block;
 }
 
-.menu_btn img {
+.column img {
   max-width: 100%;
+  height: auto;
+}
+
+.column20Width{
+  display:inline-block;
+  position: relative;
+  max-width: 20%;
+  max-height:100%;
+  height: auto;
+  margin: 16px;
+  vertical-align: middle;
+}
+
+.column20Width  img {
+  max-width: 100%;
+  height: auto;
+}
+
+.column33Width{
+  float: left;
+  display:inline-block;
+  position: relative;
+  max-width: 10%;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.column33Width  img {
+  max-width: 15%;
   height: auto;
 }
