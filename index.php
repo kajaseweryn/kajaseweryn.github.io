@@ -13,7 +13,9 @@
 
             <div class="row">
                 <div class="column">
+                  <a href="./digital.php">
                     <img src="images/menu/digital.jpg"/>
+                  </a>
                 </div>
                 <div class="column">
                     <img src="images/menu/traditional.jpg"/>

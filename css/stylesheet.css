@@ -3,6 +3,12 @@
     src: url('../fonts/ufonts.com_futura-book.ttf'); /*URL to font*/
 }
 
+html {
+    font-family: 'BestFontEver';
+    width: 100%;
+    height: 100%;
+}
+
 body{
     font-family: 'futura_book';
     width: 100%;
@@ -17,14 +23,6 @@ body{
   margin-right: auto;
   position: absolute;
   width: 100%;
-  height: 100%;
-}
-
-.contentCenteredHorizontally {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;;
-  width: 60%;
   height: 100%;
 }
 
@@ -44,16 +42,7 @@ body{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
-  margin-top: auto;
-}
-
-.headerNotCentered {
-  font-size: 48px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin-bottom: 2%;
   margin-top: 2%;
 }
 
@@ -65,11 +54,6 @@ body{
 
 .footer_info_note{
   margin-left: 5%;
-}
-
-.contentCenteredHorizontally hr{
-  width: 95%;
-  position: relative;
 }
 
 hr {
@@ -97,34 +81,252 @@ hr {
   height: auto;
 }
 
-.column20Width{
-  display:inline-block;
-  position: relative;
-  max-width: 20%;
-  max-height:100%;
-  height: auto;
-  margin: 16px;
-  vertical-align: middle;
+.digitalcontent img {
+  width: 100px;
 }
 
-.column20Width  img {
-  max-width: 100%;
+.digitalcontent {
+  border: 1px black solid;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap {
+   width:100%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+}
+
+.digital_column {
+   text-align: center;
+   float:left;
+   width:50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2%;
+}
+
+.digital_image {
+  max-width: 70%;
   height: auto;
 }
 
-.column33Width{
-  float: left;
-  display:inline-block;
-  position: relative;
-  max-width: 10%;
-  height: auto;
-  vertical-align: middle;
-  margin-left: 5%;
-  margin-top: 16px;
-  margin-bottom: 32px;
+.tile {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
 }
 
-.column33Width  img {
-  max-width: 15%;
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 3% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align:center;
+}
+
+.modal-content img {
+  max-width: 65%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal_column {
+  text-align: center;
+   float:left;
+   width:50%;
+   margin: auto;
+   margin-bottom: 2%;
+}
+
+.modal_column img {
+  max-width: 85%;
+  height: auto;
+}
+
+#content_description{
+  margin-top: 2%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* INFO SCREEN STYLES*/
+
+.info img {
+  width: 150px;
+}
+
+.info p {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.cv {
+  width: 330px;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: top;
+  border: 0px black solid;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.info {
+  border: 0px black solid;
+  width: 510px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.information {
+  border: 0px black solid;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.infopart1 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.infocontent {
+  border: 0px black solid;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-left: 7px
+}
+
+.berlinkrakau p {
+  text-align: right;
+}
+
+.inf2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.berlin {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.linia img {
+  width: 12px;
+}
+
+.linia {
+  margin-left: 18px;
+}
+
+.schools p {
+  font-size: 13px;
+}
+
+.schools {
+  margin-top: 35px;
+}
+
+.school2 {
+  margin-top: 100px;
+}
+
+.workexperience {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.worknames {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social {
+  border: 0px black solid;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social img {
+  width: 35;
+}
+
+.social1 {
+  display: inline-block;
+}
+
+.socialin {
+  border: 0px black solid;
+  width: 128px;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.insta {
+  margin-left: 2px;
+  margin-right: 4px;
+}
+
+.mail {
+  margin-left: 2px;
 }
