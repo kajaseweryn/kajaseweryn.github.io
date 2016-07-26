@@ -10,18 +10,12 @@
       <script type="text/javascript" src="script/digital.js"></script>
    </head>
    <body>
-     <div class="header">
-         kaja seweryn
-         <hr/>
-     </div>
 
-     <!-- <figure class="tile-5">
-				<img src="./images/menu/digital.jpg" />
- 						<figcaption>
-   							<h2>This is <span> Zoe</span></h2>
-   							<p class="description">Zoe has a hidden caption tile and icons.</p>
-	           </figcaption>
-		</figure> -->
+     <div class="header">
+       <a href="index.php"><img src="./images/all/backbutton.jpg"/></a>
+       kaja seweryn
+       <hr/>
+     </div>
 
       <?php
          $somePath = './projects/';
@@ -35,10 +29,12 @@
 
            $basename = basename ($dir);
 
+           $xml = simplexml_load_file($path) or die("Error: Cannot create object");
+
            echo '<div class="digital_column">';
            echo '<figure class="tile">';
            echo '<img src="'.$dir.'/photo.jpg" class="digital_image" id="'.$basename.'"/>';
-           echo '<figcaption><h2>This is <span> Zoe</span></h2><p class="description">Zoe has a hidden caption tile and icons.</p></figcaption>';
+           echo '<figcaption><h2><span>'.($xml->name).'</span></h2><p class="description">'.($xml->short_description).'</p></figcaption>';
            echo '</figure>';
            echo '</div>';
 
@@ -52,6 +48,7 @@
       <!-- Modal content -->
       <div class="modal-content">
          <span class="close">x</span>
+
          <div class="header">
             Kaja Seweryn
          </div>

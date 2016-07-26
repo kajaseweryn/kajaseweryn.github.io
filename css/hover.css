@@ -115,7 +115,7 @@ figure.effect-lily p {
   opacity: 0;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
   transition: opacity 0.2s, transform 0.35s;
-  margin: 10px 0 100px 0;
+  margin: 10px 0 20px 0;
 }
 figure.effect-lily:hover p {
   -webkit-transition-delay: 0.05s;

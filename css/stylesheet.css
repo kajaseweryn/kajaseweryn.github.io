@@ -46,6 +46,12 @@ body{
   margin-top: 2%;
 }
 
+.header img {
+  margin-right: 2%;
+  height: 28px;
+  width: auto;
+}
+
 .footer_note{
   text-align: center;
   margin-left: 25%;
@@ -117,7 +123,7 @@ hr {
 .tile {
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  max-width: 75%;
 }
 
 /* The Modal (background) */
@@ -182,6 +188,18 @@ hr {
 	height: 100%;
 }
 
+#title_text{
+  font-size: 28px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#content_text{
+  font-size: 28px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
@@ -205,7 +223,6 @@ hr {
 }
 
 .info p {
-  font-size: 13px;
   text-align: justify;
 }
 
@@ -236,6 +253,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .infopart1 {
@@ -274,9 +292,9 @@ hr {
   margin-left: 18px;
 }
 
-.schools p {
-  font-size: 13px;
-}
+/*.schools p {
+  font-size: 15px;
+}*/
 
 .schools {
   margin-top: 35px;
@@ -294,7 +312,6 @@ hr {
 }
 
 .worknames {
-  font-size: 13px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
