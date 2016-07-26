@@ -21,7 +21,7 @@
       <div class="fotos">
 
         <div class="square">
-          <a href="art.php"><img src="../images/all/art.JPG" alt="art"></a>
+          <a href="digital.php"><img src="../images/all/art.JPG" alt="art"></a>
         </div>
 
         <div class="square">
