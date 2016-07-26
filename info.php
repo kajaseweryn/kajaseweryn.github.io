@@ -16,7 +16,7 @@
 <!--Info part-->
   <div class="info">
     <div class="c1">
-      <img src="../images/all/profile.JPG">
+      <img src="./images/all/profile.JPG">
     </div>
     <div class="c1">
       <div class="cv">
@@ -51,7 +51,7 @@
         </div>
           <div class="inf2">
             <div class="linia">
-              <img src="../images/all/linia.jpg">
+              <img src="./images/all/linia.jpg">
             </div>
           </div>
       </div>
@@ -115,22 +115,19 @@
     <div class="socialin">
       <div class="social1">
         <div class="fb">
-          <a href="https://www.facebook.com/kaja.seweryn" target="_blank"><img src="../images/all/fb.JPG" alt=fb></a>
+          <a href="https://www.facebook.com/kaja.seweryn" target="_blank"><img src="./images/all/fb.JPG" alt=fb></a>
         </div>
       </div>
       <div class="social1">
         <div class="insta">
-          <a href="https://www.instagram.com/kajasewerynart/" target="_blank"><img src="../images/all/insta.JPG" alt=insta></a>
+          <a href="https://www.instagram.com/kajasewerynart/" target="_blank"><img src="./images/all/insta.JPG" alt=insta></a>
         </div>
       </div><div class="social1">
         <div class="mail">
-          <a href="mailto:kaj.seweryn@gmail.com"><img src="../images/all/mail.JPG" alt=mail></a>
+          <a href="mailto:kaj.seweryn@gmail.com"><img src="./images/all/mail.JPG" alt=mail></a>
         </div>
       </div>
     </div>
   </div>
-
-
-
   </body>
 </html>

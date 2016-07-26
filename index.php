@@ -21,7 +21,7 @@
                     <img src="images/menu/traditional.jpg"/>
                 </div>
                 <div class="column">
-                  <a href="../info.php">
+                  <a href="./info.php">
                     <img src="images/menu/info.jpg"/>
                   </a>
                 </div>
