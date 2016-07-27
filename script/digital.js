@@ -13,7 +13,8 @@ $( document ).ready(function() {
     }
 
     $( ".tile").captionHover({
-      fx: 'lily'
+      fx: 'lily',
+      overlay: '#BDBDBD'
     });
 
     $( ".digital_image" ).click(function(event) {

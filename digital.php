@@ -15,6 +15,7 @@
        <a href="index.php"><img src="./images/all/backbutton.jpg"/></a>
        kaja seweryn
        <hr/>
+       digital
      </div>
 
       <?php

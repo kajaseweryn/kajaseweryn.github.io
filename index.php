@@ -18,7 +18,9 @@
                   </a>
                 </div>
                 <div class="column">
+                  <a href="./traditional.php">
                     <img src="images/menu/traditional.jpg"/>
+                  </a>
                 </div>
                 <div class="column">
                   <a href="./info.php">
@@ -33,6 +35,9 @@
                     in Cracow, where I spent the major part of my life. In September 2015 I moved
                     to Berlin, where I started my studies in "Kommunikationsdesign" at the University
                     of Applied Sciences (Hochschule für Technik und Wirtschaft).
+                </p>
+                <p class="email">
+                  <a href="mailto:kaj.seweryn@gmail.com">kaj.seweryn@gmail.com</a>
                 </p>
             </div>
         </div>
