@@ -35,16 +35,17 @@ $( document ).ready(function() {
 
             var fileextension = ".jpg";
             path = path + 'photos/';
-            $.ajax({
-                url: path,
+
+          $.ajax({
+                url: "./script/get_photos.php",
+                data: {data:event.target.id},
+                dataType: "json",
                 success: function (data) {
-                    $(data).find("a:contains(" + fileextension + ")").each(function () {
-                        var filename = this.href.replace(window.location.host, "").replace("http://", "");
+                    $.each(data, function(i,filename) {
                         $(".image_container").append("<img src='" + path + filename + "' class='traditional_image'>");
                     });
                 }
             });
-
             modal.style.display = "block";
           }
       });
